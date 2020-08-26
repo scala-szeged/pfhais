@@ -1,7 +1,7 @@
-GET https://53248-e1eb1276-2c85-46f1-9a48-185e6dd5305e.ws-eu01.gitpod.io/products
+GET http://localhost:53248/products
 ###
 
-POST https://53248-e1eb1276-2c85-46f1-9a48-185e6dd5305e.ws-eu01.gitpod.io/products
+POST http://localhost:53248/products
 
 {
   "id": "db9a4a66-dca5-484b-aa57-82582e7bb35e",
@@ -14,7 +14,7 @@ POST https://53248-e1eb1276-2c85-46f1-9a48-185e6dd5305e.ws-eu01.gitpod.io/produc
 }
 ###
 
-PUT https://53248-e1eb1276-2c85-46f1-9a48-185e6dd5305e.ws-eu01.gitpod.io/product/db9a4a66-dca5-484b-aa57-82582e7bb35e
+PUT http://localhost:53248/product/db9a4a66-dca5-484b-aa57-82582e7bb35e
 
 {
   "id": "db9a4a66-dca5-484b-aa57-82582e7bb35e",
