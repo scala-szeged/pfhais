@@ -1,0 +1,31 @@
+GET https://53248-e1eb1276-2c85-46f1-9a48-185e6dd5305e.ws-eu01.gitpod.io/products
+###
+
+POST https://53248-e1eb1276-2c85-46f1-9a48-185e6dd5305e.ws-eu01.gitpod.io/products
+
+{
+  "id": "db9a4a66-dca5-484b-aa57-82582e7bb35e",
+  "names": [
+     {
+       "lang": "hu",
+       "name": "Kémény"
+     }
+  ]
+}
+###
+
+PUT https://53248-e1eb1276-2c85-46f1-9a48-185e6dd5305e.ws-eu01.gitpod.io/product/db9a4a66-dca5-484b-aa57-82582e7bb35e
+
+{
+  "id": "db9a4a66-dca5-484b-aa57-82582e7bb35e",
+  "names": [
+     {
+       "lang": "hu",
+       "name": "Kémény"
+     },
+     {
+       "lang": "en",
+       "name": "Chimney"
+     }
+  ]
+}
